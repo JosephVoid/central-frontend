@@ -27,19 +27,6 @@ except according to the terms contained in the LICENSE file.
         <template #body>{{ $t('users.body') }}</template>
       </home-summary-item>
     </div>
-    <div>
-      <home-summary-item to="https://docs.getodk.org/central-intro/"
-        icon="book">
-        <template #title>{{ $t('common.docs') }}</template>
-        <template #body>{{ $t('docs.body') }}</template>
-      </home-summary-item>
-    </div>
-    <div>
-      <home-summary-item to="https://forum.getodk.org/" icon="comments-o">
-        <template #title>{{ $t('common.forum') }}</template>
-        <template #body>{{ $t('forum.body') }}</template>
-      </home-summary-item>
-    </div>
   </div>
 </template>
 

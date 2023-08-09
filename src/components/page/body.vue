@@ -35,8 +35,6 @@ const htmlClass = computed(() => ({
 
 #page-body {
   @include clearfix;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: $margin-top-page-body;
   max-width: $max-width-page-body;
 

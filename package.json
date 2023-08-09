@@ -11,9 +11,6 @@
   "volta": {
     "node": "18.17.0"
   },
-  "gitHooks": {
-    "pre-commit": "node bin/transifex/restructure.js && git diff --exit-code -- transifex/strings_en.json"
-  },
   "dependencies": {
     "@floating-ui/dom": "^1.1.0",
     "axios": "^0.22.0",
@@ -23,6 +20,7 @@
     "jquery": "~3",
     "luxon": "~1",
     "marked": "~4",
+    "npm": "^9.8.1",
     "pako": "~1.0",
     "pinia": "^2.0.23",
     "qrcode-generator": "~1",

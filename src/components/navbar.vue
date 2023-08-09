@@ -22,7 +22,7 @@ except according to the terms contained in the LICENSE file.
             <span class="navbar-icon-bar"></span>
             <span class="navbar-icon-bar"></span>
           </button>
-          <router-link to="/" class="navbar-brand">ODK Central</router-link>
+          <router-link to="/" class="navbar-brand">Sebsib Data Kit</router-link>
         </div>
         <div class="collapse navbar-collapse">
           <navbar-links v-if="loggedIn"/>
@@ -32,7 +32,6 @@ except according to the terms contained in the LICENSE file.
               {{ $t('analyticsNotice') }}
             </a>
             <ul class="nav navbar-nav">
-              <navbar-help-dropdown/>
               <navbar-locale-dropdown/>
               <navbar-actions :logged-in="loggedIn"/>
             </ul>
@@ -118,7 +117,7 @@ $border-height: 3px;
 
   .navbar-brand {
     float: left;
-    font-size: $font-size-btn;
+    font-size: $font-size-btn + 2px;
     font-weight: bold;
     height: auto;
     letter-spacing: -0.02em;
@@ -190,7 +189,7 @@ $border-height: 3px;
         box-shadow: 0 0 6px transparentize($color-accent-secondary, 0.7) inset;
 
         &, &:hover, &:focus {
-          background-color: #b40066;
+          background-color: #3b3b58;
           border-top-color: #fff;
           color: #fff;
         }

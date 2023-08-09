@@ -11,8 +11,8 @@ except according to the terms contained in the LICENSE file.
 */
 
 // Core
-$color-accent-primary: #bd006b;
-$color-accent-secondary: #8d0050;
+$color-accent-primary: #505075;
+$color-accent-secondary: #505075;
 $color-page-background: #f7f7f7;
 
 // Media query breakpoints - copied from bootstrap
@@ -42,9 +42,9 @@ $color-danger-light: #ffe6e6;
 $color-danger-dark: darken($color-danger, 10%);
 
 // Buttons and inputs
-$color-action-foreground: #0c7bd1;
-$color-action-background: #009ecc;
-$color-action-background-hover: #0086ad;
+$color-action-foreground: #282829;
+$color-action-background: #353536;
+$color-action-background-hover: #282829;
 $color-action-background-disabled: #999;
 $color-action-overlay: #0096c1;
 $color-input: #555;
@@ -78,7 +78,7 @@ $padding-right-table-data: 8px;
 $padding-top-table-data: 8px;
 
 // Panels
-$box-shadow-panel-main: 0 0 24px rgba(0, 0, 0, 0.25), 0 35px 115px rgba(0, 0, 0, 0.28);
+$box-shadow-panel-main: 0 0 3px rgba(0, 0, 0, 0.25), 0px 0px 4px 0px rgba(0, 0, 0, 0.28);
 
 $color-subpanel-background: #eee;
 $color-subpanel-active: #ddd;

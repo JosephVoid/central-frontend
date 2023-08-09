@@ -15,7 +15,6 @@ except according to the terms contained in the LICENSE file.
     <home-summary/>
     <page-body>
       <div id="home-news-container">
-        <home-news/>
         <home-config-section v-if="config.home.title != null"
           :title="config.home.title" :body="config.home.body"/>
       </div>
@@ -73,7 +72,7 @@ const config = inject('config');
 {
   "en": {
     "heading": [
-      "Welcome to Central."
+      "Welcome to Sebsib Data Kit"
     ]
   }
 }

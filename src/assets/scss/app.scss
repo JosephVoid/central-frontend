@@ -669,7 +669,8 @@ becomes more complicated.
   // A .panel-main element is a child of a .col-sm-6 element. .col-sm-6 has
   // left + right padding of 30px.
   max-width: #{math.div($max-width-page-body, 2) - 30px};
-
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
   .panel-body {
     padding-bottom: 25px;
     padding-top: 25px;
