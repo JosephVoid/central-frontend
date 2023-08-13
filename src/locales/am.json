@@ -1,0 +1,325 @@
+{
+  "title": {
+    "resetPassword": "Réinitialiser le mot de passe",
+    "setPassword": "Définir le mot de passe",
+    "editProfile": "Éditer le profil",
+    "download": "Télécharger",
+    "pageNotFound": "Page non trouvée",
+    "details": "Détails"
+  },
+  "projectShow": {
+    "tab": {
+      "formAccess": "Accès aux formulaires"
+    }
+  },
+  "formHead": {
+    "tab": {
+      "versions": "Versions",
+      "publicAccess": "Accès public"
+    },
+    "draftNav": {
+      "tab": {
+        "status": "Statut",
+        "testing": "Test"
+      }
+    }
+  },
+  "systemHome": {
+    "title": "Gestion du système",
+    "tab": {
+      "audits": "Journal d'audit",
+      "analytics": "Rapport d'utilisation"
+    }
+  },
+  "role": {
+    "none": "Aucun",
+    "admin": "Administrateur",
+    "manager": "Gestionnaire de projet",
+    "viewer": "Lecteur de projet",
+    "formfill": "Collecteur de données"
+  },
+  "formState": {
+    "open": "Ouvert",
+    "closing": "Fermeture",
+    "closed": "Fermé",
+    "unpublished": "Pas encore publié"
+  },
+  "reviewState": {
+    "received": "Reçue",
+    "hasIssues": "Comporte des erreurs",
+    "edited": "Éditée",
+    "approved": "Approuvée",
+    "rejected": "Rejetée",
+    "null": "@:reviewState.received"
+  },
+  "audit": {
+    "category": {
+      "nonverbose": "(Toutes actions)",
+      "user": "Actions d'utilisateur web",
+      "project": "Actions de projet",
+      "form": "Actions de formulaire",
+      "dataset": "Actions sur les Datasets",
+      "field_key": "Actions d'utilisateurs mobiles",
+      "public_link": "Actions de liens d'accès public",
+      "config": "Actions de configuration du serveur",
+      "upgrade": "Mise à jour du serveur"
+    },
+    "action": {
+      "default": {
+        "create": "Créer",
+        "update": "Mettre à jour les détails",
+        "session_end": "Révoquer",
+        "delete": "Supprimer"
+      },
+      "analytics": "Rapport d'utilisation",
+      "config": {
+        "set": "Spécifier"
+      },
+      "dataset": {
+        "update": "Mettre à jour",
+        "update_publish": "Publier",
+        "create": "@:audit.action.default.create"
+      },
+      "field_key": {
+        "assignment_create": "Donner accès",
+        "assignment_delete": "Retirer accès",
+        "create": "@:audit.action.default.create",
+        "session_end": "@:audit.action.default.session_end",
+        "delete": "@:audit.action.default.delete"
+      },
+      "form": {
+        "update_draft_set": "Créer ou mettre à jour l'ébauche",
+        "update_publish": "Publier l'ébauche",
+        "update_draft_delete": "Abandonner l'ébauche",
+        "attachment_update": "Mettre à jour les fichiers joints",
+        "submission_export": "Télécharger les soumissions",
+        "restore": "Restaurer",
+        "purge": "Purger",
+        "create": "@:audit.action.default.create",
+        "update": "@:audit.action.default.update",
+        "delete": "@:audit.action.default.delete"
+      },
+      "public_link": {
+        "assignment_create": "Donner accès",
+        "assignment_delete": "Retirer accès",
+        "create": "@:audit.action.default.create",
+        "session_end": "@:audit.action.default.session_end",
+        "delete": "@:audit.action.default.delete"
+      },
+      "upgrade": {
+        "process_form": "Traiter le formulaire",
+        "process_form_draft": "Traiter l'ébauche du formulaire"
+      },
+      "user": {
+        "assignment_create": "Attribuer un rôle",
+        "assignment_delete": "Révoquer un rôle",
+        "delete": "Supprimer",
+        "create": "@:audit.action.default.create",
+        "update": "@:audit.action.default.update",
+        "session_create": "@:action.logIn"
+      },
+      "project": {
+        "create": "@:audit.action.default.create",
+        "update": "@:audit.action.default.update",
+        "delete": "@:audit.action.default.delete"
+      }
+    }
+  },
+  "action": {
+    "cancel": "Annuler",
+    "clear": "Effacer",
+    "close": "Fermer",
+    "comment": "Ajouter commentaire",
+    "create": "Créer",
+    "createSubmission": "Nouveau",
+    "done": "Fait",
+    "download": "Télécharger",
+    "edit": "Éditer",
+    "editProfile": "Éditer le profil",
+    "finish": "Terminer",
+    "logIn": "Se connecter",
+    "looksGood": "Ça a l'air bon, continuez",
+    "more": "Plus",
+    "neverMind": "Peu importe, annuler",
+    "next": "Suivant",
+    "noCancel": "Non, abandonner",
+    "ok": "OK",
+    "proceed": "Continuer",
+    "refresh": "Rafraîchir",
+    "resetPassword": "Réinitialiser le mot de passe",
+    "review": "Réviser",
+    "save": "Enregistrer",
+    "saveSettings": "Enregistrer les réglages",
+    "sort": "Trier",
+    "update": "Actualiser",
+    "yesProceed": "Oui, procéder",
+    "showPreview": "Aperçu",
+    "hidePreview": "Cacher l'aperçu",
+    "expand": "Déplier",
+    "collapse": "Replier"
+  },
+  "field": {
+    "comment": "Ajouter un commentaire...",
+    "dateRange": "Intervalle de date",
+    "displayName": "Nom affiché",
+    "email": "Adresse de courriel",
+    "name": "Nom",
+    "newPassword": "Nouveau mot de passe",
+    "oldPassword": "Ancien mot de passe",
+    "passphrase": "Phrase de passe",
+    "password": "Mot de passe",
+    "passwordConfirm": "Nouveau mot de passe (confirmez)",
+    "reviewState": "État",
+    "type": "Type"
+  },
+  "header": {
+    "actions": "Actions",
+    "created": "Créé",
+    "createdBy": "Créé par",
+    "createdAt": "Créé le",
+    "updatedBy": "Mis à jour par",
+    "displayName": "Nom affiché",
+    "email": "Adresse de courriel",
+    "instanceId": "ID de l'instance",
+    "lastSubmission": "Dernière soumission",
+    "name": "Nom",
+    "submitterName": "Soumis par",
+    "submissionDate": "Soumis à",
+    "time": "Heure",
+    "type": "Type",
+    "entities": "Nombre total d'entités",
+    "lastEntity": "Dernière entité"
+  },
+  "plural": {
+    "appUser": "Utilisateur mobile | Utilisateurs mobiles | Utilisateurs mobiles",
+    "form": "Formulaire | Formulaires | Formulaires",
+    "project": "Projet | Projets | Projets",
+    "submission": "Soumission | Soumissions | Soumissions",
+    "user": "Utilisateur | Utilisateurs | Utilisateurs",
+    "webUser": "Utilisateur Web | Utilisateurs web | Utilisateurs web"
+  },
+  "count": {
+    "appUser": "{count} utilisateur mobile | {count} utilisateurs mobiles | {count} utilisateurs mobiles",
+    "form": "{count} Formulaire | {count} Formulaires | {count} Formulaires",
+    "submission": "{count} Soumission | {count} Soumissions | {count} Soumissions"
+  },
+  "resource": {
+    "appUser": "Utilisateur mobile",
+    "appUsers": "Utilisateurs mobiles",
+    "config": "Configuration du serveur",
+    "dataset": "Dataset",
+    "datasets": "Datasets",
+    "entities": "Entités",
+    "form": "Formulaire",
+    "forms": "Formulaires",
+    "formAttachments": "Fichiers joints du formulaire",
+    "project": "Projet",
+    "projects": "Projets",
+    "publicLink": "Lien d'accès public",
+    "user": "Utilisateur",
+    "users": "Utilisateurs",
+    "webUser": "Utilisateur web",
+    "webUsers": "Utilisateurs web",
+    "session": "Session",
+    "submissions": "Soumissions",
+    "projectRoles": "Rôles du projet"
+  },
+  "alert": {
+    "passwordTooShort": "Merci de renseigner un mot de passe d'au moins 10 caractères.",
+    "updateReviewState": "État sauvegardé!",
+    "versionChange": "Le serveur a été mis à jour. Merci de rafraîchir la page pour éviter tout comportement inattendu."
+  },
+  "moreInfo": {
+    "clickHere": {
+      "full": "Pour plus d'informations, {clickHere}.",
+      "clickHere": "cliquez ici"
+    },
+    "helpArticle": {
+      "full": "Pour plus d'information, veuillez consulter {helpArticle}.",
+      "helpArticle": "cet article d'aide"
+    },
+    "learnMore": "En savoir plus."
+  },
+  "analytics": {
+    "alwaysImprove": "Nous veillons toujours à améliorer ODK Central.",
+    "needFeedback": {
+      "full": "Pour cela nous avons besoin de {your} retour, ainsi nous pourrons comprendre qui sont les utilisateurs de Central, et comment l'améliorer pour vous.",
+      "your": "votre"
+    }
+  },
+  "submission": {
+    "missingAttachment": "Fichier joint manquant",
+    "action": {
+      "edit": "Éditer ({count})"
+    },
+    "editDisabled": "Vous ne pouvez pas éditer les soumissions chiffrées",
+    "binaryLinkTitle": "Le fichier a été soumis. Cliquez pour le télécharger.",
+    "encryptionMessage": "La prévisualisation des données n'est pas disponible en raison du chiffrement.",
+    "noSubmission": "(aucun)",
+    "emptyTable": "Il n'y a pas encore de Soumission"
+  },
+  "entity": {
+    "label": "Étiquettes",
+    "entityId": "ID de l'entité"
+  },
+  "common": {
+    "activity": "Activité",
+    "anybody": "(n'importe qui)",
+    "areYouSure": "Êtes vous sûr de vouloir procéder ?",
+    "basicInfo": "Information de base",
+    "currentDraft": "Votre ébauche actuelle",
+    "dangerZone": "Zone Dangereuse",
+    "data": "Données",
+    "docs": "Documents",
+    "emptyValue": "(vide)",
+    "error": "Erreur",
+    "filter": "Filtrer",
+    "forum": "Forum",
+    "loading": "Chargement...",
+    "no": "Non",
+    "noResults": "Aucun résultat",
+    "rightNow": "Présentement",
+    "success": "Succès !",
+    "system": "Système",
+    "yes": "Oui",
+    "tab": {
+      "settings": "Paramètres",
+      "overview": "Aperçu"
+    },
+    "total": "Total",
+    "totalSubmissions": "Nombre total de soumissions",
+    "punctuations": {
+      "comma": ","
+    },
+    "propertiesCount": "{inform} entité sur {count} | {inform} entités sur {count} | {inform} entité(s) sur {count}"
+  },
+  "mixin": {
+    "request": {
+      "alert": {
+        "fileSize": "Le fichier “{name}” que vous essayez de charger dépasse la limite des 100MB acceptés."
+      }
+    }
+  },
+  "presenter": {
+    "Project": {
+      "nameWithArchived": "{name} (archivé)"
+    }
+  },
+  "util": {
+    "request": {
+      "noRequest": "Quelque-chose s'est mal passé : il n'y avait pas de requête.",
+      "noResponse": "Quelque-chose s'est mal passé : il n'y a pas eu de réponse à votre requête.",
+      "errorNotProblem": "Quelque-chose s'est mal passé : code d'erreur {status}."
+    },
+    "session": {
+      "alert": {
+        "expiresSoon": "Votre session expirera dans 2minutes, et vous serez automatiquement déconnecté.",
+        "expired": "Votre session a expiré. Pour continuer à travailler, merci de vous connecter à nouveau.",
+        "logoutError": "Il y a eu un problème et vous n’avez pas été complètement déconnecté. Merci de rafraîchir la page et d'essayer à nouveau de vous déconnecter. {message}"
+      }
+    }
+  },
+  "router": {
+    "unsavedChanges": "Êtes vous sûr de vouloir quitter cette page ? Vos modifications n'ont pas été enregistrées."
+  }
+}

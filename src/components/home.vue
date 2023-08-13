@@ -86,6 +86,11 @@ const config = inject('config');
       "Vítejte v Centralu."
     ]
   },
+  "am": {
+    "heading": [
+      "አንኳን ደህና መጡ።"
+    ]
+  },
   "de": {
     "heading": [
       "Willkommen bei Central"

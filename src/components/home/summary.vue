@@ -86,13 +86,13 @@ if (currentUser.can('user.list'))
 {
   "en": {
     "projects": {
-      "body": "Central is organized into Projects, which each contain their own Forms and related data."
+      "body": "Sebsib Data Kit is organized into Projects, which each contain their own Forms and related data."
     },
     "users": {
       "body": "Users can be assigned to Projects to manage them, or to collect or review submitted data."
     },
     "docs": {
-      "body": "There is a getting started guide and user documentation available on the ODK Docs website."
+      "body": "There is a getting started guide and user documentation available on the Sebsib Data Kit Docs website."
     },
     "forum": {
       "body": "You can always get help from others on the forum, where you can also search previous questions."

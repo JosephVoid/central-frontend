@@ -95,7 +95,7 @@ const { projectPath, formPath } = useRoutes();
     "title": "Submission Options",
     "introduction": [
       // This text is shown above a list of options for submitting data.
-      "There are several options for submitting data to ODK Central:",
+      "There are several options for submitting data to Sebsib Data Kit:",
       {
         // This text is shown in a list of options for submitting data.
         // {collect} is a link whose text is "ODK Collect".

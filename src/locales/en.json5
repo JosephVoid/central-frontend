@@ -299,12 +299,12 @@
   },
   "moreInfo": {
     "clickHere": {
-      "full": "For more information, {clickHere}.",
-      "clickHere": "click here"
+      "full": "",
+      "clickHere": ""
     },
     "helpArticle": {
-      "full": "For more information, please see {helpArticle}.",
-      "helpArticle": "this help article"
+      "full": "",
+      "helpArticle": ""
     },
     // This is a link to more information.
     "learnMore": "Learn more."

@@ -314,7 +314,7 @@ $drop-zone-vpadding: 15px;
         "update": "To update the Draft, upload an XForms XML file or an XLSForm Excel file."
       },
       {
-        "full": "If you don’t already have one, there are {tools} to help you design your Form.",
+        "full": "If you don’t already have one, there are tools like Sebsib Build to help you design your Form.",
         "tools": "tools available"
       },
       "If you have Form Attachments, you will be able to provide those on the next page, after the Form has been created."

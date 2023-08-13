@@ -19,14 +19,7 @@ except according to the terms contained in the LICENSE file.
     <ul class="dropdown-menu">
       <li v-for="[locale, name] of locales" :key="locale"
         :class="{ disabled: loading }">
-        <a href="#" @click.prevent="loadLocale(locale)">{{ name }}</a>
-      </li>
-      <li class="divider" role="separator"></li>
-      <li>
-        <a href="https://docs.google.com/document/d/1C0MS_ytAEBHwbMkdR-QrtDrWAAh_EkJo2QRr4XyIOpk"
-          target="_blank" rel="noopener">
-          {{ $t('helpTranslate') }}
-        </a>
+        <a v-if="locale === 'en' || locale === 'am'" href="#" @click.prevent="loadLocale(locale)">{{ name }}</a>
       </li>
     </ul>
   </li>
