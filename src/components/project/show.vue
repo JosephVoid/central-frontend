@@ -21,13 +21,13 @@ except according to the terms contained in the LICENSE file.
         <li :class="tabClass('')" role="presentation">
           <router-link :to="tabPath('')">{{ $t('common.tab.overview') }}</router-link>
         </li>
-        <li v-if="canRoute(tabPath('datasets'))" :class="tabClass('datasets')"
+        <!-- <li v-if="canRoute(tabPath('datasets'))" :class="tabClass('datasets')"
           role="presentation">
           <router-link :to="tabPath('datasets')">
             {{ $t('resource.datasets') }}
             <span class="chip">{{ $t('common.new') }}</span>
           </router-link>
-        </li>
+        </li> -->
         <li v-if="canRoute(tabPath('users'))" :class="tabClass('users')"
           role="presentation">
           <router-link :to="tabPath('users')">
