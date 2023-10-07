@@ -25,7 +25,7 @@ except according to the terms contained in the LICENSE file.
         <sentence-separator/>
         <i18n-t keypath="moreInfo.clickHere.full">
           <template #clickHere>
-            <doc-link to="central-submissions/#public-access-links">{{ $t('moreInfo.clickHere.clickHere') }}</doc-link>
+            <!--<doc-link to="central-submissions/#public-access-links">{{ $t('moreInfo.clickHere.clickHere') }}</doc-link> -->
           </template>
         </i18n-t>
       </p>

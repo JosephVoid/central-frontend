@@ -40,7 +40,7 @@ except according to the terms contained in the LICENSE file.
           </template>
         </i18n-t>
         <sentence-separator/>
-        <doc-link to="central-forms/#forms-with-attachments">{{ $t('clickForInfo') }}</doc-link>
+        <!--<doc-link to="central-forms/#forms-with-attachments">{{ $t('clickForInfo') }}</doc-link> -->
       </p>
     </checklist-step>
     <checklist-step
@@ -53,7 +53,7 @@ except according to the terms contained in the LICENSE file.
           </template>
         </i18n-t>
         <sentence-separator/>
-        <doc-link to="central-forms/#working-with-form-drafts">{{ $t('clickForInfo') }}</doc-link>
+        <!--<doc-link to="central-forms/#working-with-form-drafts">{{ $t('clickForInfo') }}</doc-link> -->
       </p>
     </checklist-step>
     <checklist-step stage="current">
@@ -66,7 +66,7 @@ except according to the terms contained in the LICENSE file.
           </template>
         </i18n-t>
         <sentence-separator/>
-        <doc-link to="central-forms/#working-with-form-drafts">{{ $t('clickForInfo') }}</doc-link>
+        <!--<doc-link to="central-forms/#working-with-form-drafts">{{ $t('clickForInfo') }}</doc-link> -->
       </p>
     </checklist-step>
   </div>

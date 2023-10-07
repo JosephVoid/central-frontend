@@ -43,7 +43,7 @@ except according to the terms contained in the LICENSE file.
               <sentence-separator/>
               <i18n-t keypath="moreInfo.helpArticle.full">
                 <template #helpArticle>
-                  <doc-link to="central-forms/#working-with-form-drafts">{{ $t('moreInfo.helpArticle.helpArticle') }}</doc-link>
+                  <!--<doc-link to="central-forms/#working-with-form-drafts">{{ $t('moreInfo.helpArticle.helpArticle') }}</doc-link> -->
                 </template>
               </i18n-t>
             </p>

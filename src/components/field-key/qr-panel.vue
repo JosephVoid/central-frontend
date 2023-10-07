@@ -60,7 +60,7 @@ except according to the terms contained in the LICENSE file.
       <p>
         <span>{{ $t('body[3]', fieldKey) }}</span>
         <sentence-separator/>
-        <doc-link to="collect-import-export/">{{ $t('moreInfo.learnMore') }}</doc-link>
+        <!--<doc-link to="collect-import-export/">{{ $t('moreInfo.learnMore') }}</doc-link> -->
       </p>
     </div>
   </div>

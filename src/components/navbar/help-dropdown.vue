@@ -17,7 +17,7 @@ except according to the terms contained in the LICENSE file.
     </a>
     <ul class="dropdown-menu">
       <li>
-        <doc-link to="central-intro/">{{ $t('common.docs') }}</doc-link>
+        <!--<doc-link to="central-intro/">{{ $t('common.docs') }}</doc-link> -->
       </li>
       <li>
         <a href="https://forum.getodk.org/" target="_blank">{{ $t('common.forum') }}</a>

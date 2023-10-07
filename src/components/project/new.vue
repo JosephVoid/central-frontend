@@ -18,7 +18,7 @@ except according to the terms contained in the LICENSE file.
         <p>{{ $t('introduction[0]') }}</p>
         <i18n-t tag="p" keypath="moreInfo.helpArticle.full">
           <template #helpArticle>
-            <doc-link to="central-projects/">{{ $t('moreInfo.helpArticle.helpArticle') }}</doc-link>
+            <!--<doc-link to="central-projects/">{{ $t('moreInfo.helpArticle.helpArticle') }}</doc-link> -->
           </template>
         </i18n-t>
       </div>

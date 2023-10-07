@@ -22,7 +22,7 @@ either is an Administrator or has no role. -->
       </button>
       <i18n-t tag="p" keypath="heading[0]">
         <template #collect>
-          <doc-link to="collect-intro/">ODK Collect</doc-link>
+          <!--<doc-link to="collect-intro/">ODK Collect</doc-link> -->
         </template>
       </i18n-t>
     </div>

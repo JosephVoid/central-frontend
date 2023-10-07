@@ -42,7 +42,7 @@ definition for an existing form -->
             <!-- eslint-disable-next-line vue/require-v-for-key -->
             <li v-for="warning of warnings.workflowWarnings">
               {{ $t('warningsText[3].' + warning.type, { value: warning.details.xmlFormId }) }}
-              <doc-link :to="documentLinks[warning.type]">{{ $t('moreInfo.learnMore') }}</doc-link>
+              <!--<doc-link :to="documentLinks[warning.type]">{{ $t('moreInfo.learnMore') }}</doc-link> -->
               <span v-if="warning.type === 'structureChanged'">
                 <br>
                 <strong>{{ $t('fields') }}</strong> {{ warning.details.join(', ') }}
@@ -71,7 +71,7 @@ definition for an existing form -->
           <sentence-separator/>
           <i18n-t keypath="introduction[1].full">
             <template #tools>
-              <doc-link to="form-tools/">{{ $t('introduction[1].tools') }}</doc-link>
+              <!--<doc-link to="form-tools/">{{ $t('introduction[1].tools') }}</doc-link> -->
             </template>
           </i18n-t>
         </p>

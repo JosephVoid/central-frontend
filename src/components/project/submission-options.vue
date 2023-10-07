@@ -27,7 +27,7 @@ except according to the terms contained in the LICENSE file.
               </a>
             </template>
             <template #collect>
-              <doc-link to="collect-intro/">ODK Collect</doc-link>
+              <!--<doc-link to="collect-intro/">ODK Collect</doc-link> -->
             </template>
           </i18n-t>
           <i18n-t tag="li" keypath="introduction[2].full">

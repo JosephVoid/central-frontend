@@ -18,7 +18,7 @@ except according to the terms contained in the LICENSE file.
       </button>
       <i18n-t tag="p" keypath="heading[0].full">
         <template #collect>
-          <doc-link to="collect-intro/">ODK Collect</doc-link>
+          <!--<doc-link to="collect-intro/">ODK Collect</doc-link> -->
         </template>
         <template #formAccess>
           <router-link :to="projectPath('form-access')">{{ $t('heading[0].formAccess') }}</router-link>

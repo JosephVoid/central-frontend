@@ -34,7 +34,7 @@ except according to the terms contained in the LICENSE file.
           <sentence-separator/>
           <i18n-t keypath="getStarted.full">
             <template #clickHere>
-              <doc-link to="central-datasets/">{{ $t('getStarted.clickHere') }}</doc-link>
+              <!--<doc-link to="central-datasets/">{{ $t('getStarted.clickHere') }}</doc-link> -->
             </template>
           </i18n-t>
         </p>
