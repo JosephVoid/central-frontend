@@ -1,325 +1,392 @@
 {
+
   "title": {
-    "resetPassword": "Réinitialiser le mot de passe",
-    "setPassword": "Définir le mot de passe",
-    "editProfile": "Éditer le profil",
-    "download": "Télécharger",
-    "pageNotFound": "Page non trouvée",
-    "details": "Détails"
+    "resetPassword": "የይለፍ ቃል ማደሻ",
+    "setPassword": "የይለፍ ቃል ማስገቢያ",
+    "editProfile": "ፕሮፋይል ማደሻ",
+    "download": "ማውረጃ",
+    "pageNotFound": "ገጹ አልተገኘም",
+    "details": "ዝርዝር"
   },
   "projectShow": {
     "tab": {
-      "formAccess": "Accès aux formulaires"
+      "formAccess": "የቅጽ ፍቃድ"
     }
   },
   "formHead": {
     "tab": {
-      "versions": "Versions",
-      "publicAccess": "Accès public"
+      "versions": "ስሪቶች",
+      "publicAccess": "የህዝብ መግቢያ"
     },
     "draftNav": {
       "tab": {
-        "status": "Statut",
-        "testing": "Test"
+        "status": "ሁኔታ",
+        "testing": "መሞከሪያ"
       }
     }
   },
   "systemHome": {
-    "title": "Gestion du système",
+
+    "title": "የመተግበሪያ አስተዳደር",
     "tab": {
-      "audits": "Journal d'audit",
-      "analytics": "Rapport d'utilisation"
+      "audits": "የሰርቨር ኦዲት ዘገባ",
+      "analytics": "የ አጠቃቀም ዘገባ"
     }
   },
+
   "role": {
-    "none": "Aucun",
-    "admin": "Administrateur",
-    "manager": "Gestionnaire de projet",
-    "viewer": "Lecteur de projet",
-    "formfill": "Collecteur de données"
+
+    "none": "የለም",
+    "admin": "የበላይ አስተዳዳሪ",
+    "manager": "የፕሮጀክት አስተዳዳሪ",
+    "viewer": "የፕሮጀክት ተመልካች",
+    "formfill": "መረጃ ሰብሳቢ"
   },
   "formState": {
-    "open": "Ouvert",
-    "closing": "Fermeture",
-    "closed": "Fermé",
-    "unpublished": "Pas encore publié"
+
+    "open": "ክፍት",
+
+    "closing": "በመዝጋት ላይ",
+
+    "closed": "ዝግ",
+
+    "unpublished": "ይፋ ያልተደረገ"
   },
+
   "reviewState": {
-    "received": "Reçue",
-    "hasIssues": "Comporte des erreurs",
-    "edited": "Éditée",
-    "approved": "Approuvée",
-    "rejected": "Rejetée",
-    "null": "@:reviewState.received"
+    "received": "ደርሷል",
+    "null": "@:reviewState.received",
+    "hasIssues": "ችግሮች አሉበት",
+    "edited": "ታድሷል",
+    "approved": "ጸድቋል",
+    "rejected": "ውድቅ ተደርጏል "
   },
   "audit": {
+
     "category": {
-      "nonverbose": "(Toutes actions)",
-      "user": "Actions d'utilisateur web",
-      "project": "Actions de projet",
-      "form": "Actions de formulaire",
-      "dataset": "Actions sur les Datasets",
-      "field_key": "Actions d'utilisateurs mobiles",
-      "public_link": "Actions de liens d'accès public",
-      "config": "Actions de configuration du serveur",
-      "upgrade": "Mise à jour du serveur"
+      "nonverbose": "(ሁሉም እርምጃዎች)",
+      "user": "የድር ተጠቃሚ እርምጃዎች",
+      "project": "የፕሮጀክት እርምጃዎች",
+      "form": "የቅጽ እርምጃዎች",
+      "dataset": "የመረጃ ስብስብ እርምጃዎች",
+      "field_key": "የመተግበሪያ ተጠቃሚ እርምጃዎች",
+      "public_link": "የህዝብ  ፍቃድ ማስፈንጠርያ እርምጃዎች",
+      "config": "የሰርቨር ማዋቀር እርምጃዎች",
+      "upgrade": "የሰርቨር እድገት"
     },
     "action": {
+
       "default": {
-        "create": "Créer",
-        "update": "Mettre à jour les détails",
-        "session_end": "Révoquer",
-        "delete": "Supprimer"
+        "create": "ይፍጠሩ",
+        "update": "ዝርዝሮችን ያዘምኑ",
+        "session_end": "ሻር",
+        "delete": "ያጥፉ"
       },
-      "analytics": "Rapport d'utilisation",
+
+      "analytics": "የ አጠቃቀም ዘገባ",
+
       "config": {
-        "set": "Spécifier"
+        "set": "ያድርጉ"
       },
+
       "dataset": {
-        "update": "Mettre à jour",
-        "update_publish": "Publier",
-        "create": "@:audit.action.default.create"
+        "create": "@:audit.action.default.create",
+        "update": "ያዘምኑ",
+        "update_publish": "ያትሙ"
       },
+
       "field_key": {
-        "assignment_create": "Donner accès",
-        "assignment_delete": "Retirer accès",
         "create": "@:audit.action.default.create",
+        "assignment_create": "ፍቃድ ይስጡ",
+        "assignment_delete": "ፍቃድ ይንሱ",
         "session_end": "@:audit.action.default.session_end",
         "delete": "@:audit.action.default.delete"
       },
+
       "form": {
-        "update_draft_set": "Créer ou mettre à jour l'ébauche",
-        "update_publish": "Publier l'ébauche",
-        "update_draft_delete": "Abandonner l'ébauche",
-        "attachment_update": "Mettre à jour les fichiers joints",
-        "submission_export": "Télécharger les soumissions",
-        "restore": "Restaurer",
-        "purge": "Purger",
         "create": "@:audit.action.default.create",
         "update": "@:audit.action.default.update",
-        "delete": "@:audit.action.default.delete"
+        "update_draft_set": "ረቂቅ ይፍጠሩ ወይም ያዘምኑ",
+        "update_publish": "ረቂቅ ያትሙ",
+        "update_draft_delete": "ረቂቅን ይተዉ",
+        "attachment_update": "አባሪዎችን ያዘምኑ",
+        "submission_export": "የተላኩ ቅጾች",
+        "delete": "@:audit.action.default.delete",
+        "restore": "የጠፋውን ይመልሱ",
+        "purge": "ያጽዱ"
       },
-      "public_link": {
-        "assignment_create": "Donner accès",
-        "assignment_delete": "Retirer accès",
-        "create": "@:audit.action.default.create",
-        "session_end": "@:audit.action.default.session_end",
-        "delete": "@:audit.action.default.delete"
-      },
-      "upgrade": {
-        "process_form": "Traiter le formulaire",
-        "process_form_draft": "Traiter l'ébauche du formulaire"
-      },
-      "user": {
-        "assignment_create": "Attribuer un rôle",
-        "assignment_delete": "Révoquer un rôle",
-        "delete": "Supprimer",
-        "create": "@:audit.action.default.create",
-        "update": "@:audit.action.default.update",
-        "session_create": "@:action.logIn"
-      },
+
       "project": {
         "create": "@:audit.action.default.create",
         "update": "@:audit.action.default.update",
         "delete": "@:audit.action.default.delete"
+      },
+
+      "public_link": {
+        "create": "@:audit.action.default.create",
+        "assignment_create": "ፍቃድ ይስጡ",
+        "assignment_delete": "ፍቃድ ይንሱ",
+        "session_end": "@:audit.action.default.session_end",
+        "delete": "@:audit.action.default.delete"
+      },
+
+      "upgrade": {
+        "process_form": "የሂደት ቅጽ",
+        "process_form_draft": "የሂደት ቅጽ ረቂቅ"
+      },
+
+      "user": {
+        "create": "@:audit.action.default.create",
+        "update": "@:audit.action.default.update",
+        "assignment_create": "ድርሻ ይስጡ",
+        "assignment_delete": "ድርሻ ይንሱ",
+        "session_create": "@:action.logIn",
+        "delete": "ያቁሙ"
       }
     }
   },
   "action": {
-    "cancel": "Annuler",
-    "clear": "Effacer",
-    "close": "Fermer",
-    "comment": "Ajouter commentaire",
-    "create": "Créer",
-    "createSubmission": "Nouveau",
-    "done": "Fait",
-    "download": "Télécharger",
-    "edit": "Éditer",
-    "editProfile": "Éditer le profil",
-    "finish": "Terminer",
-    "logIn": "Se connecter",
-    "looksGood": "Ça a l'air bon, continuez",
-    "more": "Plus",
-    "neverMind": "Peu importe, annuler",
-    "next": "Suivant",
-    "noCancel": "Non, abandonner",
-    "ok": "OK",
-    "proceed": "Continuer",
-    "refresh": "Rafraîchir",
-    "resetPassword": "Réinitialiser le mot de passe",
-    "review": "Réviser",
-    "save": "Enregistrer",
-    "saveSettings": "Enregistrer les réglages",
-    "sort": "Trier",
-    "update": "Actualiser",
-    "yesProceed": "Oui, procéder",
-    "showPreview": "Aperçu",
-    "hidePreview": "Cacher l'aperçu",
-    "expand": "Déplier",
-    "collapse": "Replier"
+    "cancel": "ይቅር",
+    "clear": "ያጥፉ",
+    "close": "ይዝጉ",
+    "comment": "አስተያየት",
+    "create": "ይፍጠሩ",
+
+    "createSubmission": "አዲስ",
+    "done": "አልቋል",
+    "download": "ያውርዱ",
+    "edit": "ያድሱ",
+    "editProfile": "profile ያድሱ",
+    "finish": "ይጨርሱ",
+    "logIn": "ይግቡ",
+    "looksGood": "ጥሩ ይመስላል፣ ይቀጥሉ",
+    "more": "ተጨማሪ",
+    "neverMind": "ግድ የለም፣ ይቅር",
+    "next": "ቀጣይ",
+    "noCancel": "አይ፣ ይቅር",
+    "ok": "አዎ",
+    "proceed": "ይቀጥሉ",
+
+    "refresh": "ያድሱ",
+    "resetPassword": "የይለፍ ቃል ይቀይሩ",
+    "review": "ይገምግሙ",
+    "save": "ይመዝግቡ",
+    "saveSettings": "የምዝገባ ቅንብሮች",
+
+    "sort": "Sort",
+    "update": "ያዘምኑ",
+    "yesProceed": "አዎ, ይቀጥሉ",
+
+    "showPreview": "ቅድመ እይታ",
+
+    "hidePreview": " ቅድመ እይታውን ይደብቁ",
+    "expand": "ይዘርዝሩ",
+    "collapse": "ይሰብስቡ"
   },
   "field": {
-    "comment": "Ajouter un commentaire...",
-    "dateRange": "Intervalle de date",
-    "displayName": "Nom affiché",
-    "email": "Adresse de courriel",
-    "name": "Nom",
-    "newPassword": "Nouveau mot de passe",
-    "oldPassword": "Ancien mot de passe",
-    "passphrase": "Phrase de passe",
-    "password": "Mot de passe",
-    "passwordConfirm": "Nouveau mot de passe (confirmez)",
-    "reviewState": "État",
-    "type": "Type"
+    "comment": "አስተያየት ያስቀምጡ…",
+    "dateRange": "ቀን (ከ...እስከ)",
+    "displayName": "የመጠሪያ ስም",
+    "email": "የኢሜይል አድራሻ",
+    "name": "ስም",
+    "newPassword": "አዲስ የይለፍ ቃል",
+    "oldPassword": "የበፊት የይለፍ ቃል",
+    "passphrase": "የይለፍ ሐረግ",
+    "password": " የይለፍ ቃል",
+    "passwordConfirm": "አዲስ የይለፍ ቃል (ያረጋግጡ)",
+    "reviewState": "የመገምገሚያ ሁነት",
+    "type": "አይነት"
   },
   "header": {
-    "actions": "Actions",
-    "created": "Créé",
-    "createdBy": "Créé par",
-    "createdAt": "Créé le",
-    "updatedBy": "Mis à jour par",
-    "displayName": "Nom affiché",
-    "email": "Adresse de courriel",
-    "instanceId": "ID de l'instance",
-    "lastSubmission": "Dernière soumission",
-    "name": "Nom",
-    "submitterName": "Soumis par",
-    "submissionDate": "Soumis à",
-    "time": "Heure",
-    "type": "Type",
-    "entities": "Nombre total d'entités",
-    "lastEntity": "Dernière entité"
+    "actions": "እርምጃዎች",
+
+    "created": "የተፈጠሩ",
+
+    "createdBy": "ፈጣሪ",
+
+    "createdAt": "የተፈጠሩበት ሰዐት",
+
+    "updatedBy": "አዳሽ",
+    "displayName": "የመጠሪያ ስም",
+    "email": "የኢሜይል አድራሻ",
+    "instanceId": "የኢንስታንስ መታወቂያ",
+    "lastSubmission": "መጨረሻ የገባው ኤንቲቲ",
+    "name": "ስም",
+
+    "submitterName": "አስገቢ",
+
+    "submissionDate": "የገባበት ሰዐት",
+
+    "time": "ሰዐት",
+    "type": "አይነት",
+
+    "entities": "ጠቅላላ አካላት",
+
+    "lastEntity": "አዲሱ አካል"
   },
   "plural": {
-    "appUser": "Utilisateur mobile | Utilisateurs mobiles | Utilisateurs mobiles",
-    "form": "Formulaire | Formulaires | Formulaires",
-    "project": "Projet | Projets | Projets",
-    "submission": "Soumission | Soumissions | Soumissions",
-    "user": "Utilisateur | Utilisateurs | Utilisateurs",
-    "webUser": "Utilisateur Web | Utilisateurs web | Utilisateurs web"
+    "appUser": "የመተግበሪያ ተጠቃሚ | የመተግበሪያ ተጠቃሚዎች",
+    "form": "ቅጽ | ቅጾች",
+    "project": "ፕሮጀክት | ፕሮጀክቶች",
+    "submission": "የተላከ ቅጽ | የተላኩ ቅጾች",
+    "user": "ተጠቃሚ | ተጠቃሚዎች",
+    "webUser": "የድር መተግበሪያ ተጠቃሚ | የድር መተግበሪያ ተጠቃሚዎች"
   },
+
   "count": {
-    "appUser": "{count} utilisateur mobile | {count} utilisateurs mobiles | {count} utilisateurs mobiles",
-    "form": "{count} Formulaire | {count} Formulaires | {count} Formulaires",
-    "submission": "{count} Soumission | {count} Soumissions | {count} Soumissions"
+    "appUser": "{count} የመተግበሪያ ተጠቃሚ | {count} የመተግበሪያ ተጠቃሚዎች",
+    "form": "{count} ቅጽ | {count} ቅጾች",
+    "submission": "{count} የተላከ ቅጽ | {count} የተላኩ ቅጾች"
   },
+
   "resource": {
-    "appUser": "Utilisateur mobile",
-    "appUsers": "Utilisateurs mobiles",
-    "config": "Configuration du serveur",
-    "dataset": "Dataset",
-    "datasets": "Datasets",
-    "entities": "Entités",
-    "form": "Formulaire",
-    "forms": "Formulaires",
-    "formAttachments": "Fichiers joints du formulaire",
-    "project": "Projet",
-    "projects": "Projets",
-    "publicLink": "Lien d'accès public",
-    "user": "Utilisateur",
-    "users": "Utilisateurs",
-    "webUser": "Utilisateur web",
-    "webUsers": "Utilisateurs web",
+    "appUser": "የመተግበሪያ ተጠቃሚ",
+    "appUsers": "የመተግበሪያ ተጠቃሚዎች",
+    "config": "የሰርቨር ውቅር",
+    "dataset": "የመረጃ ስብስብ",
+    "datasets": "የመረጃዎች ስብስብ",
+    "entities": "አካላት",
+    "form": "ቅጽ",
+    "forms": "ቅጾች",
+    "formAttachments": "የቅጽ አባሪዎች",
+    "project": "ፕሮጀክት",
+    "projects": "ፕሮጀክቶች",
+
+    "property": "ፕሮፐርቲ",
+    "publicLink": "Public Access Link",
+    "user": "ተጠቃሚ",
+    "users": "ተጠቃሚዎች",
+    "webUser": "የድር መተግበሪያ ተጠቃሚ",
+    "webUsers": "የድር መተግበሪያ ተጠቃሚዎች",
     "session": "Session",
-    "submissions": "Soumissions",
-    "projectRoles": "Rôles du projet"
+    "submissions": "የተላኩ ቅጾች",
+    "projectRoles": "የፕሮጀክት ድርሻዎች"
   },
   "alert": {
-    "passwordTooShort": "Merci de renseigner un mot de passe d'au moins 10 caractères.",
-    "updateReviewState": "État sauvegardé!",
-    "versionChange": "Le serveur a été mis à jour. Merci de rafraîchir la page pour éviter tout comportement inattendu."
+    "passwordTooShort": "እባክዎ ቢያንስ 10 ቁምፊዎች ርዝመት ያለው የይለፍ ቃል ያስገቡ።",
+    "updateEntity": "ኤንቲቲው ታድሷል",
+    "updateReviewState": "የግምገማ ሁኔታ ተመዝግቧል",
+    "versionChange": "ሰርቨሩ ተዘምኗል። ያልተጠበቀ ባህሪን ለማስወገድ እባክዎ ገጹን በድጋሚ ይክፈቱ።"
   },
   "moreInfo": {
     "clickHere": {
-      "full": "Pour plus d'informations, {clickHere}.",
-      "clickHere": "cliquez ici"
+      "full": "ለተጨማሪ መረጃ፣ {clickHere}.",
+      "clickHere": "ይህን ይጫኑ"
     },
     "helpArticle": {
-      "full": "Pour plus d'information, veuillez consulter {helpArticle}.",
-      "helpArticle": "cet article d'aide"
+      "full": "ለበለጠ መረጃ እባክዎን {helpArticle} ይመልከቱ.",
+      "helpArticle": "ይህንን የእገዛ ጽሑፍ"
     },
-    "learnMore": "En savoir plus."
+
+    "learnMore": "ተጨማሪ መረጃ"
   },
   "analytics": {
-    "alwaysImprove": "Nous veillons toujours à améliorer ODK Central.",
+    "alwaysImprove": "የሰብሰብን አቀራረብ እና ይዘት ለማሻሻል ሁሌም እንሰራለን።",
     "needFeedback": {
-      "full": "Pour cela nous avons besoin de {your} retour, ainsi nous pourrons comprendre qui sont les utilisateurs de Central, et comment l'améliorer pour vous.",
-      "your": "votre"
+
+      "full": "ይህንን ለማድረግ {your} ሰብስብ እንዴት እየተጠቀሙ እንዳሉ እና ለ{your} እንዴት የተሻለ እንደሚሆን ለመረዳት እንድንችል የ{your}ን አስተያየት እንፈልጋለን።",
+      "your": "እርስዎ"
     }
   },
   "submission": {
-    "missingAttachment": "Fichier joint manquant",
+
+    "missingAttachment": "ዓባሪ ይጎድላል",
     "action": {
-      "edit": "Éditer ({count})"
+
+      "edit": "({count}) ያድሱ"
     },
-    "editDisabled": "Vous ne pouvez pas éditer les soumissions chiffrées",
-    "binaryLinkTitle": "Le fichier a été soumis. Cliquez pour le télécharger.",
-    "encryptionMessage": "La prévisualisation des données n'est pas disponible en raison du chiffrement.",
-    "noSubmission": "(aucun)",
-    "emptyTable": "Il n'y a pas encore de Soumission"
+
+    "editDisabled": "የተመሰጠሩ የተላኩ ቅጾችን ማደስ አይችሉም።",
+    "binaryLinkTitle": "ፋይል ተልኳል ለማውረድ ይጫኑ።",
+    "encryptionMessage": "የመረጃ ቅድመ፡እይታ በማመስጠር ምክንያት አይፈቀድም።",
+
+    "noSubmission": "(ምንም)",
+    "emptyTable": "እስካሁን ምንም submissions የሉም።"
   },
   "entity": {
-    "label": "Étiquettes",
-    "entityId": "ID de l'entité"
+
+    "label": "መለያ",
+    "entityLabel": "የኤንቲቲ መለያ",
+
+    "entityId": "የኤንቲቲ መታወቂያ"
   },
   "common": {
-    "activity": "Activité",
-    "anybody": "(n'importe qui)",
-    "areYouSure": "Êtes vous sûr de vouloir procéder ?",
-    "basicInfo": "Information de base",
-    "currentDraft": "Votre ébauche actuelle",
-    "dangerZone": "Zone Dangereuse",
-    "data": "Données",
-    "docs": "Documents",
-    "emptyValue": "(vide)",
-    "error": "Erreur",
-    "filter": "Filtrer",
-    "forum": "Forum",
-    "loading": "Chargement...",
-    "no": "Non",
-    "noResults": "Aucun résultat",
-    "rightNow": "Présentement",
-    "success": "Succès !",
-    "system": "Système",
-    "yes": "Oui",
+
+    "activity": "እንቅስቃሴ",
+
+    "anybody": "(ማንኛውም )",
+
+    "areYouSure": "መቀጠል እንደሚፈልጉ እርግጠኛ ነዎት፧",
+
+    "basicInfo": "መሰረታዊ መረጃ",
+
+    "currentDraft": "የአሁኑ ረቂቅ",
+
+    "dangerZone": "አደገኛ ክልል",
+
+    "data": "መረጃ",
+
+    "docs": "ሰነዶች",
+
+    "emptyValue": "(ባዶ)",
+    "error": "ስህተት",
+
+    "filter": "ማጣሪያ",
+
+    "forum": "መድረክ",
+    "loading": "በመጫን ላይ…",
+    "no": "አይ",
+
+    "noResults": "ምንም አልተገኘም",
+
+    "rightNow": "አሁን",
+    "success": "ተሳክቷል!",
+
+    "system": "ሲስተም",
+    "yes": "አዎ",
     "tab": {
-      "settings": "Paramètres",
-      "overview": "Aperçu"
+      "settings": "ቅንብሮች",
+      "overview": "ዳሰሳ"
     },
-    "total": "Total",
-    "totalSubmissions": "Nombre total de soumissions",
+    "total": "አጠቃላይ",
+    "totalSubmissions": "ጠቅላላ የተላኩ ቅጾች",
     "punctuations": {
-      "comma": ","
+      "comma": "፣"
     },
-    "propertiesCount": "{inform} entité sur {count} | {inform} entités sur {count} | {inform} entité(s) sur {count}"
+
+    "propertiesCount": "{inform} ከ {count} ፕሮፐርቲ | {inform} ከ {count} ፕሮፐርቲዎች",
+    "new": "አዲስ!"
   },
   "mixin": {
     "request": {
       "alert": {
-        "fileSize": "Le fichier “{name}” que vous essayez de charger dépasse la limite des 100MB acceptés."
+        "fileSize": "ለመስቀል እየሞከሩት ያለው ፋይል {name} ከ100 ሜባ ገደቡ ይበልጣል።"
       }
     }
   },
   "presenter": {
     "Project": {
-      "nameWithArchived": "{name} (archivé)"
+
+      "nameWithArchived": "{name} (ማህደር)"
     }
   },
   "util": {
     "request": {
-      "noRequest": "Quelque-chose s'est mal passé : il n'y avait pas de requête.",
-      "noResponse": "Quelque-chose s'est mal passé : il n'y a pas eu de réponse à votre requête.",
-      "errorNotProblem": "Quelque-chose s'est mal passé : code d'erreur {status}."
+      "noRequest": "የሆነ ችግር ተፈጥሯል፡ ምንም የተላከ ነገር የለም።",
+      "noResponse": "የሆነ ችግር ተፈጥሯል፡ ምላሽ አልነበረም።",
+
+      "errorNotProblem": "ያልታሰበ ችግር ተፈጥሯል፡  ኮድ {status}."
     },
     "session": {
       "alert": {
-        "expiresSoon": "Votre session expirera dans 2minutes, et vous serez automatiquement déconnecté.",
-        "expired": "Votre session a expiré. Pour continuer à travailler, merci de vous connecter à nouveau.",
-        "logoutError": "Il y a eu un problème et vous n’avez pas été complètement déconnecté. Merci de rafraîchir la page et d'essayer à nouveau de vous déconnecter. {message}"
+        "expiresSoon": "የመጠቀሚያ ጊዜዎ በ፪ ደቂቃ ውስጥ ያበቃል፣ መተግበሪያውም ደግመው እንዲገቡ ያደርግዎታል።",
+        "expired": "የመጠቀሚያ ጊዜዎ አብቅቷል፣ መስራት ለመቀጠል እባክዎ እንደገና ይግቡ።",
+
+        "logoutError": "ችግር ነበር፣ እና እርስዎ ሙሉ በሙሉ አልወጡም። እባክዎ ገጹን ያድሱ እና እንደገና ለመውጣት ይሞክሩ።"
       }
     }
   },
   "router": {
-    "unsavedChanges": "Êtes vous sûr de vouloir quitter cette page ? Vos modifications n'ont pas été enregistrées."
+    "unsavedChanges": "ይህን ገጽ መልቀቆን እርግጠኛ ነዎት ፧ ለውጦች ላይመዘገቡ ይችላሉ።"
   }
 }
