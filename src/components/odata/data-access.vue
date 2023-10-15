@@ -11,11 +11,11 @@ except according to the terms contained in the LICENSE file.
 -->
 <template>
   <span id="odata-data-access">
-    <a class="btn btn-default"
+    <!-- <a class="btn btn-default"
       href="https://odkcentral.docs.apiary.io/#reference/odata-endpoints"
       target="_blank" rel="noopener">
       <span class="icon-plug"></span>{{ $t('action.apiAccess') }}
-    </a>
+    </a> -->
     <button id="odata-data-access-analyze-button" type="button"
       class="btn btn-default" :aria-disabled="analyzeDisabled"
       v-tooltip.aria-describedby="analyzeDisabled ? analyzeDisabledMessage : null"
