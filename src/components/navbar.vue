@@ -27,10 +27,10 @@ except according to the terms contained in the LICENSE file.
         <div class="collapse navbar-collapse">
           <navbar-links v-if="loggedIn"/>
           <div class="navbar-right">
-            <a v-show="showsAnalyticsNotice" id="navbar-analytics-notice"
+            <!-- <a v-show="showsAnalyticsNotice" id="navbar-analytics-notice"
               href="#" @click.prevent="showModal('analyticsIntroduction')">
               {{ $t('analyticsNotice') }}
-            </a>
+            </a> -->
             <ul class="nav navbar-nav">
               <navbar-locale-dropdown/>
               <navbar-actions :logged-in="loggedIn"/>
